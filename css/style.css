@@ -71,6 +71,35 @@ section article div p {
 section iframe{
     height: 500px;
     width: 500px;
-    
 }
 
+.mi-form{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.contacto{
+    margin: 20px 30px;
+    text-align: justify;
+}
+
+footer img{
+    height: 50px;
+    width: 50px; 
+}
+
+.img-logo{
+    padding: 20px;
+}
+
+.video-actividades{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.imagenes-inicio{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
