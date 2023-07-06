@@ -1,0 +1,30 @@
+.fondo1{
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+}
+
+.parrafoinicio{
+    color: black;
+    margin: 30px;
+    padding: 15px;
+    text-align: justify;
+    background-color:rgba(245, 245, 245, 0.486);
+}
+
+.imagenes-inicio{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    font-family: map-get($font-titulo, font-family);
+    font-size: map-get($font-titulo, $font-size);
+    font-weight: map-get($font-titulo, $font-weight);
+    text-align: map-get($font-titulo, $text-align);
+    margin-top: map-get($font-titulo, $margin-top);
+}
+
+.barra-mia{
+    @extend%orden;
+}
