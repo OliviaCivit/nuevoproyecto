@@ -127,8 +127,6 @@ width:100%;
   background-size: cover;
   background-position:center center;
   
- 
-    
 }
 
 .imagenes-inicio:hover {
@@ -139,6 +137,7 @@ max-width: 80%;
   -moz-transition: min-width 1s ease;
  -ms-transition: min-width 1s ease;
 -o-transition: min-width 1s ease;
+ 
 
 }
 
@@ -184,25 +183,36 @@ max-width: 80%;
     width: 100%;
 }
 
-.parrafo-footer{
+footer p{
   color: black;
-  margin-top: 10px;
-  margin-right: 500px;
-  padding: 15px;
-  text-align: left;
-  justify-content: left;
-  
-  
+  padding: 20px;
 }
 
+footer ul{
+  color: black;
+  padding: 20px;
+}
+
+footer a{
+  color: black;
+}
 
 .background-footer{
   background-color:rgba(245, 245, 245, 0.486);
   margin: 30px;
-
 }
 
-.mapa-footer{
-  padding: 15px;
-  
+footer iframe{
+  padding: 20px;
+}
+
+.background-footer2{
+  background-color: rgba(240, 181, 240, 0.555);
+  margin: 30px;
+}
+
+@media (max-width: 576px){
+  .nosotros{
+      margin: 25px;
+  }
 }
