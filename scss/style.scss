@@ -1,10 +1,14 @@
-@import "./abstract/variables";
-@import "./abstract/maps";
 @import "./abstract/extend";
+@import "./abstract/maps";
+@import "./abstract/variables";
 
 
-@import "./componentes/index";
-@import "./componentes/nosotros";
 @import "./componentes/actividades";
-@import "./componentes/localidad";
 @import "./componentes/contacto";
+@import "./componentes/index";
+@import "./componentes/localidad";
+@import "./componentes/nosotros";
+
+
+
+
